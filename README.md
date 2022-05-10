@@ -36,19 +36,19 @@
 
 ## Data Science Process
 
-### 1. Initial Data Exploration (SQL)
+### [1. Initial Data Exploration (SQL)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/1.initial-data-exploration-sql.ipynb)
 The initial data exploration process involved the creation of an SQL database, followed by some basic queries to better understand the dataset.
 
-### 2. Data Cleaning & Wrangling (Pandas)
+### [2. Data Cleaning & Wrangling (Pandas)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/2%2C3.data-cleaning-wrangling-and-EDA.ipynb)
 The data cleaning & wrangling process was minimal due to the data being relatively clean to begin with. The only notable modification was the removal of customer data where there was no average balance data recorded. 
 
-### 3. Exploratory Data Analysis (Pandas, Tableau)
+### [3. Exploratory Data Analysis (Pandas, Tableau)](https://public.tableau.com/app/profile/sabina.firtala/viz/Credit-Card-Interest-Analysis/EDA)
 During the EDA process, we were able to observe some commonalities across customers accepting credit card offers, such as lower credit ratings and lack of overdraft protection.
 
-### 4. Data Pre-processing & Classification Model (Scikit-Learn)
+### [4. Data Pre-processing & Classification Model (Scikit-Learn)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/4.data-preprocessing-and-classification-models.ipynb)
 To prepare the data for modelling, the outliers were removed from numerical columns and the numerical data scaled, whereas the categorical data was encoded so it becomes a numerical feature for the prediction models.
 
-The models used were logistic regression and K-Nearest Neighbors (with multiple neighbor values), in the presence and absence of SMOTE oversampling - which was applied only **after** the data was train-test split.
+The models used were logistic regression and K-Nearest Neighbors (with multiple neighbor values), in the presence and absence of SMOTE oversampling - which was applied only to the training dataset.
 
 The best model in terms of prediction accuracy across both accepted & rejected offers was logistic regression where the training set was oversampled using SMOTE - 69% for rejected offers and 67% for accepted offers.
 
