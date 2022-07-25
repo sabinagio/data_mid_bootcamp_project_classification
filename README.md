@@ -39,7 +39,7 @@
 ### [1. Initial Data Exploration (SQL)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/1.initial-data-exploration-sql.ipynb)
 The initial data exploration process involved the creation of an SQL database, followed by some basic queries to better understand the dataset.
 
-### [2. Data Cleaning & Wrangling (Pandas)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/2%2C3.data-cleaning-wrangling-and-EDA.ipynb)
+### [2. Data Cleaning, Wrangling & Exploration (Pandas)](https://github.com/sabinagio/data_mid_bootcamp_project_classification/blob/master/deliverables/2%2C3.data-cleaning-wrangling-and-EDA.ipynb)
 The data cleaning & wrangling process was minimal due to the data being relatively clean to begin with. The only notable modification was the removal of customer data where there was no average balance data recorded. 
 
 ### [3. Exploratory Data Analysis (Pandas, Tableau)](https://public.tableau.com/app/profile/sabina.firtala/viz/Credit-Card-Interest-Analysis/EDA)
